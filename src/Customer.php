@@ -12,7 +12,7 @@ class customer
         $this->name = $name;
     }
 
-    public function sayHello(string $name): string
+    public function sayHello($name): string
     {
         return "Hello $name, my name is $this->name;";
     }
